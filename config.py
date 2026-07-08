@@ -1,0 +1,7 @@
+import os
+
+TWELVE_API_KEY = os.getenv("TWELVE_API_KEY")
+DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
+
+SYMBOL = "XAU/USD"
+INTERVAL = "5min"
